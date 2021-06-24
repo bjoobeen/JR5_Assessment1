@@ -17,20 +17,75 @@
       crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="../HTML-CSS-Bootstrap-Assessment/index.css">
+    <title>JR5 Assessment1</title>
   </head>
   <body>
       <header class="container-fluid">
-        <nav class="row nav-bar navbar-expand-lg navbar-light bg-light padding-20px">
-            <div class="col-sm-1 navigation">
-                <a class="no-decoration" href="#home">Home</a>
+        <nav class="row navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="navigation col-md-3 col-sm-2">
+                <ul>
+                    <a href="#intro">Home</a></li>
+                </ul>
             </div>
-            <div class="col-sm-1 navigation">
-                <a class="no-decoration" href="#about">About</a>
+            <div class="navigation col-md-5 col-sm-6">       
+            </div> 
+            <div class="navigation col-md-4 col-sm-4" >
+                <ul>
+                    <a href="#about"><span class="no-decoration"></span>About</a>
+                    <a href="#portfolio"><span class="no-decoration"></span>Portfolio</a>
+                    <a href="#blog"><span class="no-decoration"></span>Blog</a>
+                </ul>
             </div>
-            <div class="col-sm-1 navigation">
-                <a class="no-decoration" href="#portfolio">Portfolio</a>
-            </div>
-            
       </header>
-      
+      <main class="container">
+        <div>            
+            <section class="intro #intro">
+                <div id="intro-image"></div>
+                <div class="intro-text">
+                   <h1>Hello!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit totam deserunt dolorem quidem temporibus fuga repellendus, quis animi?</p>                        <button type="button" class="btn btn-primary">See More</button>
+                </div>
+            </section>
+            <section class="#about container-fluid">
+                <h1 style="center">About</h1>
+                <div class="about-text">
+                    <h2>D John</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo totam eius voluptatem tempora. Repellendus aliquam neque assumenda, nisi exercitationem quidem sequi laudantium ab perferendis ea autem, maxime corporis omnis quas.</p>
+                <br>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem tempore impedit, adipisci quo maiores tempora consequatur omnis animi harum culpa odit laboriosam? Neque velit sequi obcaecati laboriosam voluptatem in sapiente.</p>
+                </div>    
+            </section>
+        </div>
+        <div>
+            <section class="portfolio">
+                    <h2>Portfolio</h2>
+                    <div class="row portfolio-image">
+                        <div class=”col-md-4 col-sm-2”>
+                            <img class=”img-fluid” src=”HTML-CSS-Bootstrap-Assessment\img\portfolio.jpg” />
+                        </div>
+                        <div class=”col-md-4 col-sm-4”>
+                            <img class=”img-fluid” src=”HTML-CSS-Bootstrap-Assessment\img\portfolio.jpg” />
+                        </div>
+                        <div class=”col-md-4 col-sm-6”>
+                           <img class=”img-fluid” src=”HTML-CSS-Bootstrap-Assessment\img\portfolio.jpg” />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class=”col-md-4 col-sm-2”>
+                            <img class=”img-fluid” src=”HTML-CSS-Bootstrap-Assessment\img\portfolio.jpg” />
+                        </div>
+                        <div class=”col-md-4 col-sm-4”>
+                            <img class=”img-fluid” src=”HTML-CSS-Bootstrap-Assessment\img\portfolio.jpg” />
+                        </div>
+                        <div class=”col-md-4 col-sm-6”>
+                           <img class=”img-fluid” src=”HTML-CSS-Bootstrap-Assessment\img\portfolio.jpg” />
+                    </div>
+            </section>
+        </div>
+        <div>
+            <section class="#blog">
+                <h2>Blog</h2>
+            </section>
+        </div>
+        </main>
   </body>
