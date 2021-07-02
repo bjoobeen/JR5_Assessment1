@@ -6,6 +6,7 @@ background-color: aquamarine;
 }
 .no-decoration {
     text-decoration: none;
+    list-style: none;
 }
 #intro-image {
     background-image: ("HTML-CSS-Bootstrap-Assessment\img\header.jpg");
@@ -17,4 +18,7 @@ background-color: aquamarine;
 .about-text {
     border-left-color: lightseagreen;
     border: 2px;
+}
+li {
+    list-style: none;
 }
