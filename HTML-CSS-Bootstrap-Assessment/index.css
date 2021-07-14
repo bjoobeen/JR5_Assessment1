@@ -1,13 +1,17 @@
-body {
-    
-}
-.header {
-background-color: aquamarine;
+header, .header-content {
+    background-color:rgb(52, 214, 206);
+    padding: none;
+    color: rgb(238, 230, 230) !important;
 }
 .no-decoration {
     text-decoration: none;
     list-style: none;
 }
+.right-links {
+    display: flex;
+    flex-direction: ;
+}
+
 #intro-image {
     background-image: ("HTML-CSS-Bootstrap-Assessment\img\header.jpg");
     height: 100%;
