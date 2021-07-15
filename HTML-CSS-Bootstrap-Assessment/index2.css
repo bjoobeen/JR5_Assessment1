@@ -2,8 +2,20 @@ header, .header-content {
     background-color:rgb(52, 214, 206) !important;
     color: rgb(238, 230, 230) !important;
 }
-.navbar-padding {
+.padding-none {
     padding: 0% !important;
+}
+.bg-no-overlay {
+    background: url("../HTML-CSS-Bootstrap-Assessment/img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color:rgb(52, 214, 206);
+    height: 700px;
+    padding-top: 10px;
+}
+
+
 }
 .no-decoration {
     text-decoration: none;
