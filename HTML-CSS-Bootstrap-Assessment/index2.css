@@ -14,11 +14,16 @@ header, .header-content {
     height: 700px;
     padding-top: 10px;
 }
-
-
+.intro-text {
+    color: rgb(238, 230, 230);
+    display: flex !important;
+    align-content: center !important;    
 }
-.no-decoration {
-    text-decoration: none;
-    list-style: none;
+.white-text {
+    color: ;
+}
+.button {
+
+
 }
 
