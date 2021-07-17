@@ -5,6 +5,9 @@ header, .header-content {
 .padding-none {
     padding: 0% !important;
 }
+.align-center-none {
+    align-items:unset !important;
+}
 .bg-no-overlay {
     background: url("../HTML-CSS-Bootstrap-Assessment/img/header.jpg");
     background-repeat: no-repeat;
