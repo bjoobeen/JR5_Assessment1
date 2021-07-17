@@ -1,6 +1,6 @@
 header, .header-content {
-    background-color:rgb(52, 214, 206) !important;
-    color: rgb(238, 230, 230) !important;
+    background-color:rgb(52, 214, 206);
+    color: rgb(238, 230, 230);
 }
 .padding-none {
     padding: 0% !important;
@@ -14,6 +14,10 @@ header, .header-content {
     height: 700px;
     padding-top: 5px;
     margin: 0%;
+}
+.intro {
+    display: flex !important;
+    align-content: center !important;
 }
 .intro-text {
     color: rgb(52, 214, 206);
