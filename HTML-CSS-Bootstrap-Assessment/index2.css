@@ -1,12 +1,9 @@
 header, .header-content {
     background-color:rgb(52, 214, 206);
-    color: rgb(238, 230, 230);
+    color: rgb(238, 230, 230) !important;
 }
 .padding-none {
     padding: 0% !important;
-}
-.align-center-none {
-    align-items:unset !important;
 }
 .bg-no-overlay {
     background: url("../HTML-CSS-Bootstrap-Assessment/img/header.jpg");
