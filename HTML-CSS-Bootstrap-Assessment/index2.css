@@ -16,12 +16,11 @@ header, .header-content {
     margin: 0%;
 }
 .intro {
-    margin-top: 30vmax;
+    margin-top: 12vmax;
     margin-left: 8%;
 }
 .intro-text {
     color: rgb(52, 214, 206);
-    flex-wrap: wrap !important;
 }
 #hello {
     font-weight: 400;
