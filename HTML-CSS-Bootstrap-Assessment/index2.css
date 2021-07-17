@@ -51,11 +51,3 @@ header, .header-content {
     height: 9em;
     width:auto;
 }
-.display-none {
-    display: none;
-  }
-@include media-breakpoint-up(md) {
-    .display-none {
-      display: block;
-    }
-}
