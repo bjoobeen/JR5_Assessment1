@@ -16,8 +16,9 @@ header, .header-content {
     margin: 0%;
 }
 .intro {
-    display: flex !important;
-    align-content: center !important;
+    margin-top: 30vmax;
+    margin-left: 8%;
+    display: block;
 }
 .intro-text {
     color: rgb(52, 214, 206);
@@ -47,11 +48,8 @@ header, .header-content {
     border-top: none;
     border-bottom: none;
 }
-.portfolio {
-    overflow: hidden;
-}
 .port-img {
-    height: 8em;
+    height: 9em;
     width:auto;
 }
 .display-none {
